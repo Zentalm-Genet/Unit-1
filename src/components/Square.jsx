@@ -1,14 +1,11 @@
 import React from "react";
 
-const Square = ({ value, onClick }) => {
+const Square = (props) => {
   return (
-    <div className="input" onClick={onClick}>
-      {value}
+    <div className="input" onClick={props.onClick}>
+      {props.value}
     </div>
   );
 };
 
 export default Square;
-
-
-

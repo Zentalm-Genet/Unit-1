@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Board from "./Board";
-import Info from "./Info";
-import Header from "./Header";
-import "../css/App.css";
+import Board from "./components/Board";
+import Info from "./components/Info";
+import Header from "./components/Header";
+import "./css/App.css";
 
 function App() {
   const [reset, setReset] = useState(false);
